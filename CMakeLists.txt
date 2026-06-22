@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.31)
 project(algo VERSION 1.0 LANGUAGES CXX)
-
+#
 add_library(algo INTERFACE)
 add_library(algo::algo ALIAS algo)
 
